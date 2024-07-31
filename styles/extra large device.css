@@ -1,30 +1,49 @@
 @media screen and (min-width: 1024px) {
+
     .cover,
     .donate-today {
         max-width: 1440px;
         margin: auto auto;
     }
+
     h1 {
         font-size: 4.5rem;
     }
-    
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
     p {
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    
+
     .btn {
         border-radius: .15rem;
         padding: 1rem 1.5rem;
         font-size: 1.5rem;
-    }
-    .cover {
-        padding: 5rem 1rem 4.5rem 1rem;
-    }
-    .cover h1, p, .btn {
-        margin-bottom: 2rem;
-    }
-    .btn {
         margin-top: 2rem;
     }
+
+    .cover,
+    .donate-today {
+        padding: 5rem 1rem 4.5rem 1rem;
+    }
+
+    .cover h1,
+    p,
+    .btn {
+        margin-bottom: 2rem;
+    }
+
+    .card_container {
+        margin: 3.5rem auto;
+        gap: 2.5rem;
+    }
+
+    .donate-today>#taka {
+        font-size: 2rem;
+    }
+
 }

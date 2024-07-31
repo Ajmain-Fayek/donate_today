@@ -3,28 +3,40 @@
     font-size: 3rem;
   }
 
+  h2 {
+    font-size: 2rem;
+  }
+
   p {
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.5rem;
   }
 
   .btn {
     border-radius: 0.15rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 1rem 1.25rem;
+    font-size: 1.35rem;
+    margin-top: 2rem;
   }
 
-  .cover {
+  .cover,
+  .donate-today {
     padding: 5rem 1rem 4.5rem 1rem;
   }
 
   .cover h1,
   p,
-  .btn {
+  .btn,
+  .donate-today h1,
+  p {
     margin-bottom: 2rem;
   }
 
-  .btn {
-    margin-top: 2rem;
+  .donate-today>#taka {
+    font-size: 2rem;
+  }
+  .card_container {
+    margin: 3rem auto;
+    gap: 2.5rem;
   }
 }

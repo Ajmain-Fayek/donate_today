@@ -11,6 +11,10 @@ h1 {
     font-size: 1.35rem;
 }
 
+h2 {
+    font-size: 1rem;
+}
+
 p {
     font-size: 0.7rem;
     line-height: 1.1rem;
@@ -84,6 +88,37 @@ p {
     outline: none;
     font-size: 1rem;
     font-weight: 600;
+    color: #000000ae;
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+.card {
+    padding: 1.5rem .75rem;
+    background: #00000010;
+    border-radius: .5rem;
+    border: 2px solid #0000000a;
+}
+
+.card h2 {
+    font-weight: 900;
+    color: #0000007e;
+}
+
+.card2 {
+    background: #ff595934;
+    border: 2px solid #ff5959;
+}
+
+.card2 h2 {
+    color: #ff5959;
 }
 
 /* donate today */
