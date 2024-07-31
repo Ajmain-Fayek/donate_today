@@ -1,4 +1,9 @@
 @media screen and (min-width: 1024px) {
+    .cover,
+    .donate-today {
+        max-width: 1440px;
+        margin: auto auto;
+    }
     h1 {
         font-size: 4.5rem;
     }
@@ -15,9 +20,6 @@
     }
     .cover {
         padding: 5rem 1rem 4.5rem 1rem;
-        max-width: 1440px;
-        margin: auto auto;
-        
     }
     .cover h1, p, .btn {
         margin-bottom: 2rem;

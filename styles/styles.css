@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
     padding: 0;
@@ -12,39 +12,78 @@ h1 {
 }
 
 p {
-    font-size: .7rem;
+    font-size: 0.7rem;
     line-height: 1.1rem;
+}
+
+.display_block {
+    display: block;
 }
 
 .btn {
     background: #ff5959;
     border: none;
-    border-radius: .1rem;
-    padding: .3rem .5rem;
+    border-radius: 0.1rem;
+    padding: 0.3rem 0.5rem;
     color: #fff;
-    font-size: .85rem;
+    font-size: 0.85rem;
 }
 
 body {
     background: #000;
 }
 
+/* cover */
 .cover {
     background: linear-gradient(0deg, #000000b0, #0000002a),
         url("../images/Rectangle237.png");
     color: #fff;
     text-align: center;
-    padding: 1.5rem .5rem 1rem .5rem;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70%;
-    
 }
-.cover h1, p {
+
+.cover,
+.donate-today {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+}
+
+.cover h1,
+p,
+.donate-today h1,
+p,
+#taka {
+    text-align: center;
     width: 75%;
     margin: auto auto;
 }
-.cover h1, p, .btn {
+
+.cover h1,
+p,
+.btn,
+.donate-today h1,
+p {
     margin-bottom: 1rem;
 }
+
+/* cover */
+/* donate today */
+.donate-today {
+    background: #fff;
+}
+
+.donate-today>.btn {
+    margin: 1rem auto;
+}
+
+.donate-today>#taka {
+    border: none;
+    border-bottom: 1px solid #00000041;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* donate today */
